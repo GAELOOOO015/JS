@@ -1,0 +1,13 @@
+*{
+    margin:0px;
+    padding:0px;
+    }
+    body{
+      background: indianred;
+    }
+    h1{
+      color: white;
+    }
+    #valor{
+      background: linear-gradient(blue, red);
+    }

@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding:0px;
+    }
+    body{
+      background: aqua;
+    }
+    h1{
+      color: white;
+    }
+    label{
+      color: white;
+    }
+    #a{
+      height: 50px;
+      width: 50px;
+      background: red;
+    }
+    #b{
+      height: 50px;
+      width: 50px;
+      background: red;
+    }
+    #c{
+      height: 50px;
+      width: 50px;
+      background: red;
+    }
+    #d{
+      height: 50px;
+      width: 50px;
+      background: red;
+    }

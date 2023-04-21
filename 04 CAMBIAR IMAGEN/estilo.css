@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+    }
+    body{
+      background: blue;
+    }
+    h1{
+      color: white;
+    }
+    #a{
+      width: 100px;
+      height: 100px;
+      background: red;
+    }
+    #b{
+      width: 100px;
+      height: 100px;
+      background: red;
+    }
+  #c{
+      width: 100px;
+      height: 100px;
+      background: red;
+  }

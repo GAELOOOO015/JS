@@ -1,0 +1,46 @@
+!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Calculadora</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="../img/yo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            02 CALCULADORA
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+<h1>CALCULADORA</h1>
+
+   <label>Numero 1:</label><br>
+      <input type="number" id="n1" placeholder="numero 1" required value="0"><br>
+      <label>Numero 2</label><br>
+            <input type="number" id="n2" placeholder="numero 2" required value="0"><br>
+      <button id="a" onclick="suma()">+</button>
+       <button id="b" onclick="resta()">-</button>
+ <button id="c" onclick="multiplicación ()">*</button>
+ <button id="d" onclick="division()">/</button>
+ <div id="res">
+   Resultado
+ </div>
+  
+  <script src="app.js"></script>
+</body>
+
+</html>
